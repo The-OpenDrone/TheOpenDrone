@@ -22,7 +22,6 @@ section {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  padding: 50px 0;
 }
 
 body header {
@@ -32,9 +31,15 @@ body header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 50px;
-  width: 85%;
+  padding: 30px 80px;
+  width: 100%;
   margin: 0 auto;
+  background-color: #f0f0f0c4;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  color: #000;
 }
 
 body header div.logo {
@@ -199,5 +204,30 @@ body section.prototype-gal div.image-gal div.image img {
   border-radius: 5px;
   -webkit-box-shadow: 0px 3px 10px -4px #525252;
   box-shadow: 0px 3px 10px -4px #525252;
+}
+
+body footer {
+  margin-top: 100px;
+  padding: 50px 80px;
+  background-color: #f0f0f0c4;
+}
+
+body footer h2 {
+  margin-bottom: 20px;
+  color: #707070;
+}
+
+body footer ul li {
+  font-size: 1.2rem;
+}
+
+body footer ul li:not(:first-child) {
+  margin-top: 8px;
+}
+
+body footer ul li i {
+  color: #707070;
+  margin-right: 5px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */
